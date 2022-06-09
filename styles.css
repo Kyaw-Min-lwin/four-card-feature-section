@@ -1,0 +1,145 @@
+*, *::after, *::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(0, 0%, 98%);
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+#text-section {
+    width: 40%;
+    text-align: center;
+    margin: 4em auto;
+}
+
+h1 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 200;
+    font-size: 2.3rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    margin-bottom: 0.6em;
+}
+
+#text-section p {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+}
+
+
+#description-section {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.supervisor, .calculator, .mid-div {
+    width: 31%;
+
+}
+
+.supervisor, .calculator {
+    align-self: center;
+}
+
+.supervisor, .team, .calculator, .karma {
+    background-color: white;
+    border-radius: 5px;
+    padding: 25px 40px 150px;
+    position: relative;
+    box-shadow: -2px 8px 20px -9px rgba(0, 0, 0, 0.75);
+}
+
+.supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+}
+
+.team {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    margin-bottom: 2em;
+}
+
+.karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    margin-bottom: 2em;
+}
+
+.calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+
+}
+
+#description-section h3 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0.5em;
+}
+
+
+#description-section p {
+    color: hsl(229, 6%, 66%);
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+
+}
+
+@media (max-width:720px) {
+    #text-section {
+        text-align: justify;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 1.4rem;
+    }
+
+    h2 {
+        font-size: 1.4rem;
+    }
+
+    #text-section p {
+        font-size: 0.8rem;
+    }
+
+    #description-section {
+        flex-direction: column;
+        width: 85%;
+        margin-bottom: 3em;
+    }
+
+    .supervisor, .calculator, .mid-div {
+        width: 100%;
+        margin-bottom: 0em;
+
+    }
+
+    .supervisor, .team, .calculator, .karma {
+        padding: 25px 20px 120px;
+        margin-bottom: 3em;
+    }
+
+}
