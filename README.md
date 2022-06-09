@@ -17,6 +17,6 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Kyaw-Min-lwin/four-card-feature-section)
-- Live Site URL: [Add live site URL here](https://kyaw-min-lwin.github.io/four-card-feature-section/)
+- Solution URL: [(https://github.com/Kyaw-Min-lwin/four-card-feature-section)]
+- Live Site URL: [(https://kyaw-min-lwin.github.io/four-card-feature-section/)]
 
